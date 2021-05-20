@@ -183,6 +183,7 @@ Further help:
     source 'https://rubygems.org'
     gem 'github-pages', group: :jekyll_plugins
     ~~~
+    {: .language-bash}
 
     If you don't have it, create it and the two lines above to it.
 
@@ -449,7 +450,7 @@ included in the [repository](https://github.com/carpentries-incubator/template).
 >     Again, the name of the remote should be `<username>/<mylesson>`, your username
 >     followed by what you named your lesson; on the example this is
 >     `timtomch/data-cleanup`. You can check that this has worked by refreshing the webpage from
-      > step 5, e.g. `https://github.com/timtomch/data-cleanup`.
+>     step 5, e.g. `https://github.com/timtomch/data-cleanup`.
 >
 > 9. To be able to pull upstream style changes, you should manually add the
 >      styles repository as a remote called `template`:
