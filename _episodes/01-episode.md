@@ -21,7 +21,7 @@ For a full guide on Carpentries rationale, refer to the
 A well written, clean Carpentries style code should not exceed 100 characters per line, otherwise
 it could cause build issues.
 
-{% capture mycode %}{% include {{ site.snippets }}ep01/bash_commands.snip %}{% endcapture %}
+{% include {{ site.snippets }}/ep01/bash_commands.snip %}
 
 ### Syntax Highlighting
 
