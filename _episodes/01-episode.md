@@ -32,6 +32,8 @@ For a full guide on Carpentries rationale, refer to the
 A well written, clean Carpentries style code should not exceed 100 characters per line, otherwise
 it could cause build issues with the tests. 
 
+
+
 Most of the syntax is covered below, aside from a few other requirements which are non-standard.
 
 - **Pictures**: See the implementation of the logo above for adding images and also their location.
@@ -44,7 +46,8 @@ Most of the syntax is covered below, aside from a few other requirements which a
 {: .source}
 
 - **Abstractions**: Carpentries comes with a handy way of abstracting commonly repeated references.
-                    These are stored in the [next lesson]({{page.root}}{% link _config.yml %})
+                    These are stored in the 
+                    [`_config.yml`](https://github.com/ICHEC-learn/ichec-template/blob/gh-pages/_config.yml)
 
 ~~~
 {{ site.remote.name }} is hosted by {{ site.remote.location }}
