@@ -3,25 +3,59 @@ title: "Episode title"
 teaching: 10
 exercises: 0
 questions:
-- "What is the answer?"
+- "How are these files formatted"
 objectives:
-- "To explain life, the Universe and everything"
+- "Outline information sources"
+- "How to import images, code snippets and abstractions"
+- "How to structure callouts, highlighting"
 keypoints:
-- "The answer is 42"
-- "But the ultimate question needs to be found"
+- "Lesson episodes are stored in _episodes/dd-subject.md."
+- "Each episode's title must include a title, time estimates, motivating questions, lesson 
+  objectives, and key points."
+- "Episodes should not use sub-titles or HTML layout."
+- "Code blocks can have the source, regular output, or error class."
+- "Special sections are formatted as blockquotes that open with a level-2 header and close with a
+  class identifier."
+- "Special sections may be callouts or challenges; other styles are used by the template itself."
 ---
 
 <p align="center"><img src="../fig/ICHEC_Logo.jpg" width="40%"/></p>
 
 ## Overview
 
+Carpentries lessons are written in standard markdown format with a few modifications, which will be
+discussed in this episode.
+
 For a full guide on Carpentries rationale, refer to the 
 [documentation](https://carpentries.github.io/curriculum-development/designing-challenges.html)
 
 A well written, clean Carpentries style code should not exceed 100 characters per line, otherwise
-it could cause build issues.
+it could cause build issues with the tests. 
 
+Most of the syntax is covered below, aside from a few other requirements which are non-standard.
+
+- **Pictures**: See the implementation of the logo above for adding images and also their location.
+- **Code snippets**: Instead of writing out a whole code and clogging up the contents of a markdown
+                     file, snippets can be separate files stored in `_includes/snippets_library`
+
+~~~
 {% include {{ site.snippets }}/ep01/bash_commands.snip %}
+~~~
+{: .source}
+
+- **Abstractions**: Carpentries comes with a handy way of abstracting commonly repeated references.
+                    These are stored in the [next lesson]({{page.root}}{% link _config.yml %})
+
+~~~
+{{ site.remote.name }} is hosted by {{ site.remote.location }}
+
+{{ site.sched.submit }} myjob.sh
+~~~
+{: .source}
+
+- **Jumping between episodes**: The next episode can be referred to with the arrow, but the most
+                                common is 
+                                [next lesson]({{page.root}}{% link _episodes/02-deep-thought.md %})
 
 ### Syntax Highlighting
 
