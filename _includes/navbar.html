@@ -14,7 +14,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-
+      {% comment %} Adding ICHEC logo {% endcomment %}
+      <img class="navbar-logo" src="{{ relative_root_path }}{% link /assets/img/lc-icon-black.svg %}" alt="Library Carpentry logo" />
+      
       {% comment %} Select what logo to display. {% endcomment %}
       {% if site.carpentry == "swc" %}
       <a href="{{ site.swc_site }}" class="pull-left">
