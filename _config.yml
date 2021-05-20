@@ -1,4 +1,27 @@
 #------------------------------------------------------------
+# Snippets, including files in code
+#------------------------------------------------------------
+
+snippets: "/snippets/libary/"
+
+
+#------------------------------------------------------------
+# Kay commands
+#------------------------------------------------------------
+
+remote:
+  name: "KAY"
+  location: "Irish Centre for High End Computing"
+  homedir: "ichec/home/users/yourUsername"
+
+sched:
+  name: "SLURM"
+  user: "yourUsername"
+  submit: "sbatch"
+
+
+
+#------------------------------------------------------------
 # Values for this lesson.
 #------------------------------------------------------------
 
