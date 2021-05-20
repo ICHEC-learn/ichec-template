@@ -280,6 +280,6 @@ but the alternatives we considered and discarded are worse:
 
 ## IMPORTANT
 
-**`include links.md` surrounded by `{% content %}` must be the last line in every file**
+**`include links.md` surrounded by Liquid tags must be the last line in every file**
 
 {% include links.md %}
