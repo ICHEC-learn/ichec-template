@@ -30,7 +30,8 @@ For a full guide on Carpentries rationale, refer to the
 [documentation](https://carpentries.github.io/curriculum-development/designing-challenges.html)
 
 A well written, clean Carpentries style code should not exceed 120 characters per line, otherwise
-it could cause build issues with the tests. 
+it could cause build issues with the tests. Refer to the lesson check python file 
+[here]({{page.root}}{% link bin/lesson_check.py %})
 
 These `.md` should be viewed as supporting material to the slides that you are presenting, based
 off the material in here. 
@@ -61,7 +62,8 @@ Most of the syntax is covered below, aside from a few other requirements which a
                                 common is 
                                 [next lesson]({{page.root}}{% link _episodes/02-deep-thought.md %})
 
-- **Data files**: If you are working on a course that 
+- **Data files**: If you are working on a course that requires the users to have some data, you can use links to the
+                  [file]({{page.root}}{% link files/mydata.txt %}) in this example.
 
 ### Syntax Highlighting
 
