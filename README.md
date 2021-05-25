@@ -3,6 +3,19 @@
 This repository should intentionally remain as a private repo, so therefore is not published on an external github.io page. 
 Upon following the instructions below, the repo will automatically run integration tests, spelling checks and page building tests. 
 
+The only folders and files therein which need to be edited for lesson use are as follows;
+
+- `_episodes/` or `episodes_rmd/`: Episodes either in regular Markdown or RMarkdown
+- `_includes/snippets_library/`: Including code snippets (text files, outputs etc.) This is for convenience, as it can be easily 
+  written in markdown
+- `_config.yml`: As above, specific commands/abstractions which can be used 
+- `fig/`: Insert figures
+- `data/`: Any data needed for the duration of the lesson
+- `slides/`: Any powerpoint/pdf slides being used for the lesson
+- `files`, `code`: Can be utilised as above subject to content
+
+Any files which are not included in the above should be tested in the `ichec-template` repository before continuing.
+
 To create a new repository from this template and to ensure you ahve your own copy, follow the instructions outlined below:
 
 1. Select **Use this template** 
