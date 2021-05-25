@@ -31,7 +31,7 @@ For a full guide on Carpentries rationale, refer to the
 
 A well written, clean Carpentries style code should not exceed 120 characters per line, otherwise
 it could cause build issues with the tests. Refer to the lesson check python file 
-[here]({{page.root}}{% link bin/lesson_check.py %})
+[here](https://github.com/ICHEC-learn/ichec-template/blob/gh-pages/bin/lesson_check.py)
 
 These `.md` should be viewed as supporting material to the slides that you are presenting, based
 off the material in here. 
