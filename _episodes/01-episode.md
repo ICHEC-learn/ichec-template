@@ -29,10 +29,11 @@ discussed in this episode.
 For a full guide on Carpentries rationale, refer to the 
 [documentation](https://carpentries.github.io/curriculum-development/designing-challenges.html)
 
-A well written, clean Carpentries style code should not exceed 100 characters per line, otherwise
+A well written, clean Carpentries style code should not exceed 120 characters per line, otherwise
 it could cause build issues with the tests. 
 
-
+These `.md` should be viewed as supporting material to the slides that you are presenting, based
+off the material in here. 
 
 Most of the syntax is covered below, aside from a few other requirements which are non-standard.
 
@@ -50,7 +51,7 @@ Most of the syntax is covered below, aside from a few other requirements which a
                     [`_config.yml`](https://github.com/ICHEC-learn/ichec-template/blob/gh-pages/_config.yml)
 
 ~~~
-{{ site.remote.name }} is hosted by {{ site.remote.location }}
+{{ site.remote.name }} is hosted by the {{ site.remote.location }}
 
 {{ site.sched.submit }} myjob.sh
 ~~~
@@ -59,6 +60,8 @@ Most of the syntax is covered below, aside from a few other requirements which a
 - **Jumping between episodes**: The next episode can be referred to with the arrow, but the most
                                 common is 
                                 [next lesson]({{page.root}}{% link _episodes/02-deep-thought.md %})
+
+- **Data files**: If you are working on a course that 
 
 ### Syntax Highlighting
 
