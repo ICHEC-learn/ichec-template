@@ -4,7 +4,7 @@ root: .  # Is the only page that doesn't follow the pattern /:path/index.html
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
 
-<p align="center"><img src="../fig/ICHEC_Logo.jpg" width="40%"/></p>
+<p align="center"><img src="fig/ICHEC_Logo.jpg" width="40%"/></p>
 
 {% include gh_variables.html %}
 
