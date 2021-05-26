@@ -39,6 +39,7 @@ supplied [Technological introductions][tech-intro] section of The Carpentries Cu
 > 7.  This template repo is set to **Private**, and upon creating a new repo and github.io, this will by default
 >     be generated, so make sure that the existing content is deleted and modified accordingly.
 > 8.  Your main editing will take place in `_episodes`, `fig`, `_includes`, and `data`/`files` directories. 
+>     Additionally, `_config.yml` where the title for the lesson and commands can be added for {{ site.remote.name }}.
 > 9.  Ensure the page builds! This can be done by cheking the tests on your own forked repo, otherwise the page will not build.
 {: .checklist}
 
