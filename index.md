@@ -15,13 +15,18 @@ This setup has been adapted from the Carpentries [lesson example](https://carpen
 for use at ICHEC. You should be familiar with using both GitHub and Markdown tools. You can refer to the Carpentries 
 supplied [Technological introductions][tech-intro] section of The Carpentries Curriculum Development Handbook.
 
+It is likely that somewhere in the Carpentries spectrum, someone will have done something similar to what you
+are aiming to develop. Even if it is a small amount, the way the lesson is designed may give inspiration to you on 
+how to design your own lesson.
+
 > ## Prerequisites
 >
 > Use the `.prereq` style to specify prerequisites.
 > 
 > For setting up lessons in the Carpentries style with ICHEC, it is recommended that you have knowledge of 
 > GitHub and Markdown. Feel free to refer to the Carpentries 
-> [lesson template](https://carpentries.github.io/lesson-example/).
+> [lesson template](https://carpentries.github.io/lesson-example/) if you need further information on 
+> style guides.
 >
 {: .prereq}
 
