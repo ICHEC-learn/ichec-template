@@ -46,6 +46,7 @@ how to design your own lesson.
 > 8.  Your main editing will take place in `_episodes`, `fig`, `_includes`, and `data`/`files` directories. 
 >     Additionally, `_config.yml` where the title for the lesson and commands can be added for {{ site.remote.name }}.
 > 9.  Ensure the page builds! This can be done by cheking the tests on your own forked repo, otherwise the page will not build.
+> 10. Add any supporting slides or presentation material into the `slides` directory.
 {: .checklist}
 
 [curriculum-handbook]: https://carpentries.github.io/curriculum-development/
