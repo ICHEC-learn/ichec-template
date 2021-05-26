@@ -42,27 +42,27 @@ Working Online/Locally
     d) **NB**: If changes have been made by others and you have fetched on your forked repo in github (step 1 above), ensure you type
        `git fetch` to merge your local laptop changes with your forked online repo (which has been synced with the ICHEC-learn main repo)
 
-
-`________________________________________________________________________`
-`|                                                                       |`
-`| Remote                             ICHEC-learn/lesson-repo            |`
-`|                                       |                ^              |`
-`|                                       |                |              |`
-`|---------------------------------------v----------------|--------------|`
-`|                                Fetch upstream    Merge Requests       |`
-`|---------------------------------------|----------------|--------------|`
-`|                       |               v                |              |`
-`| Local (fork)          | Online       username/lesson-repo             |`
-`|                       |               |                ^              |`
-`|                       |---------------v----------------|--------------|`
-`|                       |           git fetch        git push           |`
-`|                       |---------------|-------------------------------|`
-`|                       | Laptop        |           git commit          |`
-`|                       |               |                ^              |`
-`|                       |               v                |              |`
-`|                       |              /path/to/lesson-repo             |`
-`|_______________________|_______________________________________________|`
-
+```
+________________________________________________________________________
+|                                                                       |
+| Remote                             ICHEC-learn/lesson-repo            |
+|                                       |                ^              |
+|                                       |                |              |
+|---------------------------------------v----------------|--------------|
+|                                Fetch upstream    Merge Requests       |
+|---------------------------------------|----------------|--------------|
+|                       |               v                |              |
+| Local (fork)          | Online       username/lesson-repo             |
+|                       |               |                ^              |
+|                       |---------------v----------------|--------------|
+|                       |          `git fetch`      `git push`          |
+|                       |---------------|-------------------------------|
+|                       | Laptop        |          `git commit`         |
+|                       |               |                ^              |
+|                       |               v                |              |
+|                       |             `/path/to/lesson-repo`            |
+|_______________________|_______________________________________________|
+```
 
 To merge your changes with the main ICHEC-learn;
 
