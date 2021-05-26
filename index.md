@@ -4,44 +4,54 @@ root: .  # Is the only page that doesn't follow the pattern /:path/index.html
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
 
+<p align="center"><img src="fig/ICHEC_Logo.jpg" width="40%"/></p>
+
 {% include gh_variables.html %}
 
 For guidelines on how to develop curriculum content, please visit
 [The Carpentries Curriculum Development Handbook][curriculum-handbook].
 
-This lesson shows how to use [The Carpentries]({{ site.carpentries_site}})
-lesson template. The materials below assume familiarity with tools such as GitHub, Markdown,
-and Jekyll. For more guidance, please visit the [Technological introductions][tech-intro]
-section of The Carpentries Curriculum Development Handbook.
+This setup has been adapted from the Carpentries [lesson example](https://carpentries.github.io/lesson-example/)
+for use at ICHEC. You should be familiar with using both GitHub and Markdown tools. You can refer to the Carpentries 
+supplied [Technological introductions][tech-intro] section of The Carpentries Curriculum Development Handbook.
 
-For guidelines on how to help improve our lessons and this template,
-please see [the contribution guidelines][contributing];
-for guidelines on how to set up your machine to preview changes locally,
-please see [the setup instructions]({{ page.root }}{% link setup.md %}).
+It is likely that somewhere in the Carpentries spectrum, someone will have done something similar to what you
+are aiming to develop. Even if it is a small amount, the way the lesson is designed may give inspiration to you on 
+how to design your own lesson.
 
 > ## Prerequisites
 >
 > Use the `.prereq` style to specify prerequisites.
+> 
+> For setting up lessons in the Carpentries style with ICHEC, it is recommended that you have knowledge of 
+> GitHub and Markdown. Feel free to refer to the Carpentries 
+> [lesson template](https://carpentries.github.io/lesson-example/) if you need further information on 
+> style guides.
+>
 {: .prereq}
 
-> ## Ten Things You Need To Know
+> ## For ICHEC users
 >
-> 0.  Don't panic.
+> 0.  Refer to README.md for instructions on setting up a new lesson or editing an existing one.
 > 1.  Create a new lesson by using GitHub Import, *not* by forking.
-> 2.  Run `bin/lesson_initialize.py` *once* in a new lesson repository to set up standard files.
-> 3.  Run `make lesson-check` to check that the lesson is formatted correctly.
-> 4.  Put lesson episodes in `_episodes` (or `_episodes_rmd` if you are writing in RMarkdown).
-> 5.  Run `make serve` to preview the lesson website locally.
-> 6.  Do *not* commit the generated HTML files in the `_site` directory.
-> 7.  Style blocks and code samples by putting `{: .stylename}` on a newline *after* the block or
+> 2.  Put lesson episodes in `_episodes` (or `_episodes_rmd` if you are writing in RMarkdown).
+> 3.  Each episode should have a set of related concepts, and contain a set of challenges to practice these concepts
+> 4.  There are many styles of challenges you can create for your episodes, as a rough guide however, start with
+>     [Designing challenges][designing-challenges].
+> 5.  Style blocks and code samples by putting `{: .stylename}` on a newline *after* the block or
       code.
-> 8.  Put solutions inside challenges using nested blockquotes.
-> 9.  File issues and template fixes in the [styles repository][styles],
->     and enhancements to this documentation in this one.
+> 6.  Put solutions inside challenges using nested blockquotes.
+> 7.  This template repo is set to **Private**, and upon creating a new repo and github.io, this will by default
+>     be generated, so make sure that the existing content is deleted and modified accordingly.
+> 8.  Your main editing will take place in `_episodes`, `fig`, `_includes`, and `data`/`files` directories. 
+>     Additionally, `_config.yml` where the title for the lesson and commands can be added for {{ site.remote.name }}.
+> 9.  Ensure the page builds! This can be done by checking the tests on your own forked repo, otherwise the page will not build.
+> 10. Add any supporting slides or presentation material into the `slides` directory.
 {: .checklist}
 
 [curriculum-handbook]: https://carpentries.github.io/curriculum-development/
 [tech-intro]: https://carpentries.github.io/curriculum-development/technological-introductions.html
+[designing-challenges]: https://carpentries.github.io/curriculum-development/designing-challenges.html#designing-challenges-1
 
 {% include links.md %}
 

@@ -16,7 +16,7 @@ The only folders and files therein which need to be edited for lesson use are as
 
 Any files which are not included in the above should be tested in the `ichec-template` repository before continuing.
 
-To create a new repository from this template and to ensure you ahve your own copy, follow the instructions outlined below:
+To create a new repository from this template and to ensure you have your own copy, follow the instructions outlined below:
 
 1. Select **Use this template** 
 2. Select **ICHEC-learn** as the owner then call the repo something memorable (e.g. intro-to-linux), and give a description
@@ -42,6 +42,7 @@ Working Online/Locally
     d) **NB**: If changes have been made by others and you have fetched on your forked repo in github (step 1 above), ensure you type
        `git fetch` to merge your local laptop changes with your forked online repo (which has been synced with the ICHEC-learn main repo)
 
+```
 ________________________________________________________________________
 |                                                                       |
 | Remote                             ICHEC-learn/lesson-repo            |
@@ -61,6 +62,7 @@ ________________________________________________________________________
 |                       |               v                |              |
 |                       |             `/path/to/lesson-repo`            |
 |_______________________|_______________________________________________|
+```
 
 To merge your changes with the main ICHEC-learn;
 
